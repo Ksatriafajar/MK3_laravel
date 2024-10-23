@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    @vite('resources/css/app.css')
 </head>
 <body class="h-screen flex items-center justify-center bg-gradient-to-br from-cyan-100 via-blue-100 to-pink-100 animate-fadeIn">
     <form id="loginForm" class="relative z-20 bg-white p-10 rounded-2xl shadow-lg w-80 text-center hover:transform hover:scale-105 transition-transform duration-300">
