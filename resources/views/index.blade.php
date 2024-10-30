@@ -25,7 +25,7 @@
             <p class="text-lg text-white max-w-lg mx-auto mb-8">
                 Nature is a concept that includes the entire physical world that exists around us. This includes everything that is not man-made, such as mountains, forests, rivers, oceans, as well as the flora and fauna that inhabit the earth.
             </p>
-            <a href="#" class="px-8 py-3 bg-green-500 text-white font-semibold rounded hover:bg-green-600">
+            <a href="{{ route('about') }}" class="px-8 py-3 bg-green-500 text-white font-semibold rounded hover:bg-green-600">
                 Read More
             </a>
         </div>
